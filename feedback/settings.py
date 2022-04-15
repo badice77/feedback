@@ -127,9 +127,10 @@ STATIC_ROOT = 'static'
 MEDIA_URL =  "/uploads/"
 MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads')
 
-#SESSION_COOKI_AGE = 120
+# SESSION_COOKI_AGE = 120
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+ 
